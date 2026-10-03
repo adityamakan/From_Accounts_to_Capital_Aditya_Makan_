@@ -1,0 +1,11 @@
+CER FALL 2026 SUBMISSION CHECKLIST
+
+1. Eligibility: Current undergraduate student — enter Year: Freshman; Institution: B.Sc. Finance, City Premier College, Nagpur (affiliated to Rashtrasant Tukadoji Maharaj Nagpur University).
+2. PDF: Upload From_Accounts_to_Capital_Aditya_Makan_FINAL.pdf. This is the final audited 31-page build.
+3. Abstract: Paste the contents of ABSTRACT.txt into the Google Form (maximum 350 words; manuscript audit reports 348 words).
+4. .tex: No .tex source file exists in the final build package. The form says to include it only if you have one, so do not fabricate one.
+5. Graphics/data/code: CER asks for files for every graphic/table and code/spreadsheets/data-analysis items. This package contains the 16 figure PNGs, verified data ledger, verified workbook, and build script.
+6. Supplementary link: If you create a public GitHub repository, paste its URL in the form. Otherwise, the current form does not provide a separate upload field for the full supplementary package.
+7. Questions/comments: Optional; can be left blank.
+
+Important: The screenshot currently shows an uploaded file named From_Accounts_to_Capital_Aditya_Makan_17.pdf. Replace it with the final audited PDF in this package before submitting.

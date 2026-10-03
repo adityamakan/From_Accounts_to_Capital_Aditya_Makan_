@@ -1,0 +1,1 @@
+Audited manuscript package. Core numeric inputs are in data/verified_data_ledger.csv and data/verified_data_tables.xlsx. Figures are separate files in figures/. Official primary sources are identified in the manuscript references and source notes. No unestimated regression results are presented.
