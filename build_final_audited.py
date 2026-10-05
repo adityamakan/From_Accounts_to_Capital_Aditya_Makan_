@@ -9,11 +9,14 @@ from pypdf import PdfReader
 import matplotlib.pyplot as plt
 import pandas as pd, numpy as np, os, re, json, zipfile, shutil
 
-ROOT='/mnt/data/FINAL_PUBLISH_AUDIT'
-FIG=os.path.join(ROOT,'figures'); DATA=os.path.join(ROOT,'data')
-os.makedirs(FIG,exist_ok=True); os.makedirs(DATA,exist_ok=True)
-PDF=os.path.join(ROOT,'From_Accounts_to_Capital_Aditya_Makan_FINAL.pdf')
-ZIP='/mnt/data/FINAL_PUBLISH_AUDIT_PACKAGE.zip'
+# Fixed for clean workspace execution using relative paths
+FIG = 'figures'
+DATA = 'data'
+os.makedirs(FIG, exist_ok=True)
+os.makedirs(DATA, exist_ok=True)
+PDF = 'From_Accounts_to_Capital_Aditya_Makan_FINAL.pdf'
+ZIP = 'FINAL_PUBLISH_AUDIT_PACKAGE.zip'
+
 
 # ---------- Fonts ----------
 for n,p in [('DV','/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf'),('DVB','/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf'),('DS','/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'),('DSB','/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf')]:
